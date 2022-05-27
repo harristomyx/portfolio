@@ -8,9 +8,9 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to frontend!</title>
       </Head>
-      <main className="app">
+      <div className="app">
         <Component {...pageProps} />
-      </main>
+      </div>
     </>
   );
 }
